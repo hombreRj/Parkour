@@ -1,0 +1,49 @@
+MySql:
+  user: ''
+  pass: '^'
+  host: 'c.*****.cc'
+  database: 's5_user'
+  port: 3306
+  useSSL: false
+Arena:
+  world: 'world'
+  startPosition: '-60;157;46;100;100'
+  endPosition: '-75;163;58'
+  checkPoints:
+    - '-66;161;51'
+Messages:
+  startMessage: '&6&l STARTED PARKOUR '
+  endMessage: '&6&lYou finished in %time%'
+  teleportLastCheckPoint: '&6&lTeleported back to latest checkpoint.'
+  checkPointName: '&6&lCHECKPOINT'
+  endName: '&6&lEND'
+  startName: '&6&lSTART'
+  checkPointReached: '&7CheckPoint reached'
+  checkPointReachedWithSplits: '&6&lCHECKPOINT %cpnumber% REACHED! You reached this checkpoint
+    in %Currenttime% your best time is %bestTime%'
+  noPB: '&6You must complete the parkour before you can have a personal best!'
+  pb: '&6&lYour current pb is &o%time%'
+  leaderboardFormat: '&c%number%. &e%name% - &8%time%'
+  leaderboardBottom: '&m------------------'
+  leaderboardTop: '&m----Top 10 Times----'
+  beatTime: '&7You beat your old time! &a%newTime% &8- &c%oldTime%'
+  parkourHelp:
+    - '&c/Parkour top'
+    - '&c/Parkour best'
+  setMessage: '&cUpdated start point'
+  setEndMessage: '&cUpdated end point'
+  addCheckPoint: '&cAdded checkpoint location. When finished run /parkour finish'
+  finishedSetup: '&cRestart server for updated parkour map!'
+  quitMessage: '&cYou have left parkour!'
+  flyingNotAllowed: '&cFlying is not permitted during the parkour. Please restart!'
+sound:
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+item:
+  itemSlot: 4
+  itemName: "&6&lREVERT TO LAST CHECKPOINT"
+  restartItemSlot: 5
+  restartItemName: "&6&lRESTART PARKOUR"
+  quitItemSlot: 6
+  quitItemName: "&6&lQUIT PARKOUR"
+Particles:
+  particleTrail: "ELECTRIC_SPARK"

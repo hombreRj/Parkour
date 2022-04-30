@@ -1,0 +1,8 @@
+name: Parkour
+version: 0.1-SNAPSHOT
+main: ws.rlns.parkour.Parkour
+author: raw
+api-version: 1.17
+commands:
+  parkour:
+    description: Parkour related commands
